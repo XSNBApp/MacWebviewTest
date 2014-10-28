@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>10063D14-610E-448A-A659-354E372EA3F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SNBWebview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0915B779DE29B035687B7E9EC69668BCF759683A</key>
+		<string>https://github.com/XSNBApp/MacWebviewTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MacWebView/WebView/resources/AppData/SNBWebview/SNBWebview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0915B779DE29B035687B7E9EC69668BCF759683A</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/XSNBApp/MacWebviewTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0915B779DE29B035687B7E9EC69668BCF759683A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0915B779DE29B035687B7E9EC69668BCF759683A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MacWebviewTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
