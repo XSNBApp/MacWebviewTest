@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334AE1CD19FF3573005C48AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1CC19FF3573005C48AB /* main.m */; };
+		334AE1D019FF3573005C48AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1CF19FF3573005C48AB /* AppDelegate.m */; };
+		334AE1D819FF3573005C48AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334AE1D719FF3573005C48AB /* Images.xcassets */; };
+		334AE1DB19FF3573005C48AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334AE1D919FF3573005C48AB /* LaunchScreen.xib */; };
+		334AE1E719FF3573005C48AB /* SNBWebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1E619FF3573005C48AB /* SNBWebviewTests.m */; };
+		334AE1F519FF76D1005C48AB /* SNBMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334AE1E119FF3573005C48AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334AE1BF19FF3573005C48AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334AE1C619FF3573005C48AB;
+			remoteInfo = SNBWebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334AE1C719FF3573005C48AB /* SNBWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNBWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AE1CB19FF3573005C48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334AE1CC19FF3573005C48AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334AE1CE19FF3573005C48AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		334AE1CF19FF3573005C48AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		334AE1D719FF3573005C48AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		334AE1DA19FF3573005C48AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		334AE1E019FF3573005C48AB /* SNBWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNBWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334AE1E519FF3573005C48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334AE1E619FF3573005C48AB /* SNBWebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBWebviewTests.m; sourceTree = "<group>"; };
+		334AE1F319FF76D1005C48AB /* SNBMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBMainNavViewController.h; sourceTree = "<group>"; };
+		334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBMainNavViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334AE1C419FF3573005C48AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AE1DD19FF3573005C48AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334AE1BE19FF3573005C48AB = {
+			isa = PBXGroup;
+			children = (
+				334AE1C919FF3573005C48AB /* SNBWebview */,
+				334AE1E319FF3573005C48AB /* SNBWebviewTests */,
+				334AE1C819FF3573005C48AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		334AE1C819FF3573005C48AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1C719FF3573005C48AB /* SNBWebview.app */,
+				334AE1E019FF3573005C48AB /* SNBWebviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334AE1C919FF3573005C48AB /* SNBWebview */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1F019FF7678005C48AB /* UI */,
+				334AE1CE19FF3573005C48AB /* AppDelegate.h */,
+				334AE1CF19FF3573005C48AB /* AppDelegate.m */,
+				334AE1D719FF3573005C48AB /* Images.xcassets */,
+				334AE1D919FF3573005C48AB /* LaunchScreen.xib */,
+				334AE1CA19FF3573005C48AB /* Supporting Files */,
+			);
+			path = SNBWebview;
+			sourceTree = "<group>";
+		};
+		334AE1CA19FF3573005C48AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1CB19FF3573005C48AB /* Info.plist */,
+				334AE1CC19FF3573005C48AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		334AE1E319FF3573005C48AB /* SNBWebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1E619FF3573005C48AB /* SNBWebviewTests.m */,
+				334AE1E419FF3573005C48AB /* Supporting Files */,
+			);
+			path = SNBWebviewTests;
+			sourceTree = "<group>";
+		};
+		334AE1E419FF3573005C48AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1E519FF3573005C48AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		334AE1F019FF7678005C48AB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1F119FF7678005C48AB /* MainNav */,
+				334AE1F219FF7678005C48AB /* Webview */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		334AE1F119FF7678005C48AB /* MainNav */ = {
+			isa = PBXGroup;
+			children = (
+				334AE1F319FF76D1005C48AB /* SNBMainNavViewController.h */,
+				334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */,
+			);
+			path = MainNav;
+			sourceTree = "<group>";
+		};
+		334AE1F219FF7678005C48AB /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334AE1C619FF3573005C48AB /* SNBWebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334AE1EA19FF3573005C48AB /* Build configuration list for PBXNativeTarget "SNBWebview" */;
+			buildPhases = (
+				334AE1C319FF3573005C48AB /* Sources */,
+				334AE1C419FF3573005C48AB /* Frameworks */,
+				334AE1C519FF3573005C48AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNBWebview;
+			productName = SNBWebview;
+			productReference = 334AE1C719FF3573005C48AB /* SNBWebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334AE1DF19FF3573005C48AB /* SNBWebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334AE1ED19FF3573005C48AB /* Build configuration list for PBXNativeTarget "SNBWebviewTests" */;
+			buildPhases = (
+				334AE1DC19FF3573005C48AB /* Sources */,
+				334AE1DD19FF3573005C48AB /* Frameworks */,
+				334AE1DE19FF3573005C48AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334AE1E219FF3573005C48AB /* PBXTargetDependency */,
+			);
+			name = SNBWebviewTests;
+			productName = SNBWebviewTests;
+			productReference = 334AE1E019FF3573005C48AB /* SNBWebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334AE1BF19FF3573005C48AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = xxing;
+				TargetAttributes = {
+					334AE1C619FF3573005C48AB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					334AE1DF19FF3573005C48AB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 334AE1C619FF3573005C48AB;
+					};
+				};
+			};
+			buildConfigurationList = 334AE1C219FF3573005C48AB /* Build configuration list for PBXProject "SNBWebview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334AE1BE19FF3573005C48AB;
+			productRefGroup = 334AE1C819FF3573005C48AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334AE1C619FF3573005C48AB /* SNBWebview */,
+				334AE1DF19FF3573005C48AB /* SNBWebviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334AE1C519FF3573005C48AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AE1DB19FF3573005C48AB /* LaunchScreen.xib in Resources */,
+				334AE1D819FF3573005C48AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AE1DE19FF3573005C48AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334AE1C319FF3573005C48AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AE1F519FF76D1005C48AB /* SNBMainNavViewController.m in Sources */,
+				334AE1D019FF3573005C48AB /* AppDelegate.m in Sources */,
+				334AE1CD19FF3573005C48AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AE1DC19FF3573005C48AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AE1E719FF3573005C48AB /* SNBWebviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334AE1E219FF3573005C48AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334AE1C619FF3573005C48AB /* SNBWebview */;
+			targetProxy = 334AE1E119FF3573005C48AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334AE1D919FF3573005C48AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334AE1DA19FF3573005C48AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334AE1E819FF3573005C48AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		334AE1E919FF3573005C48AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334AE1EB19FF3573005C48AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNBWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		334AE1EC19FF3573005C48AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNBWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		334AE1EE19FF3573005C48AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SNBWebviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNBWebview.app/SNBWebview";
+			};
+			name = Debug;
+		};
+		334AE1EF19FF3573005C48AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SNBWebviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNBWebview.app/SNBWebview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334AE1C219FF3573005C48AB /* Build configuration list for PBXProject "SNBWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AE1E819FF3573005C48AB /* Debug */,
+				334AE1E919FF3573005C48AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334AE1EA19FF3573005C48AB /* Build configuration list for PBXNativeTarget "SNBWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AE1EB19FF3573005C48AB /* Debug */,
+				334AE1EC19FF3573005C48AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334AE1ED19FF3573005C48AB /* Build configuration list for PBXNativeTarget "SNBWebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334AE1EE19FF3573005C48AB /* Debug */,
+				334AE1EF19FF3573005C48AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334AE1BF19FF3573005C48AB /* Project object */;
+}
