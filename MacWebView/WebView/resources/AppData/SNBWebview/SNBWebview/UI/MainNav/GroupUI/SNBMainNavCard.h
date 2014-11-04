@@ -2,7 +2,7 @@
 //  SNBMainNavSection.h
 //  QQMSFContact
 //
-//  Created by brightshen on 14-9-25.
+//  Created by xxing on 14-9-25.
 //
 //
 

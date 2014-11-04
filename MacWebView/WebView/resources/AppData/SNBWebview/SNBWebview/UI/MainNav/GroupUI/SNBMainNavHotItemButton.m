@@ -2,15 +2,15 @@
 //  QQHotItemCell.m
 //  QQMSFContact
 //
-//  Created by brightshen on 14-10-15.
+//  Created by xxing on 14-10-15.
 //
 //
 
 #import "SNBMainNavHotItemButton.h"
-#import "QQAsynUrlImageView.h"
+#import "SNBAsynUrlImageView.h"
 
 @implementation SNBMainNavHotItemButton{
-    QQAsynUrlImageView *_imageView;
+    SNBAsynUrlImageView *_imageView;
     UILabel *_nameLabel;
 }
 
@@ -21,13 +21,13 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        _imageView = [[QQAsynUrlImageView alloc] initWithFrame:CGRectMake((frame.size.width-48)/2, 0, 48, 48)];
+        _imageView = [[SNBAsynUrlImageView alloc] initWithFrame:CGRectMake((frame.size.width-48)/2, 0, 48, 48)];
         _imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin;
         [self addSubview:_imageView];
         
         _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 52, frame.size.width, 13)];
         _nameLabel.font = [UIFont systemFontOfSize:11];
-        _nameLabel.skinTextColorNormal = kContentDescriptionTextColor;
+    
         _nameLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _nameLabel.textAlignment = NSTextAlignmentCenter;
         _nameLabel.backgroundColor = [UIColor clearColor];
@@ -39,7 +39,7 @@
 - (void)setModel:(SNBMainNavHotItemModel *)model{
     if (_model != model) {
         _model = model;
-        [_imageView loadUrlImage:_model.imageURL];
+        [_imageView sd_setImageWithURL:[NSURL URLWithString: _model.imageURL]];
         _nameLabel.text = model.name;
     }
 }

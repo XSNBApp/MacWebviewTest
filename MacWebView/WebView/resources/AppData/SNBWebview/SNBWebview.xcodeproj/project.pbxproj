@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330E44871A07C9ED00D0591C /* SNBMainNavHotItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E44861A07C9ED00D0591C /* SNBMainNavHotItemModel.m */; };
+		330E448D1A07D34100D0591C /* SNBMainNavUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E448C1A07D34100D0591C /* SNBMainNavUIModel.m */; };
+		330E449C1A07E64D00D0591C /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E44941A07E64D00D0591C /* TOActivityChrome.m */; };
+		330E449D1A07E64D00D0591C /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E44961A07E64D00D0591C /* TOActivitySafari.m */; };
+		330E449E1A07E64D00D0591C /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E44981A07E64D00D0591C /* TOWebViewController.m */; };
+		330E449F1A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E449A1A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.m */; };
+		330E44A41A07E71E00D0591C /* SNBAsynUrlImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E44A31A07E71E00D0591C /* SNBAsynUrlImageView.m */; };
 		334AE1CD19FF3573005C48AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1CC19FF3573005C48AB /* main.m */; };
 		334AE1D019FF3573005C48AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1CF19FF3573005C48AB /* AppDelegate.m */; };
 		334AE1D819FF3573005C48AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334AE1D719FF3573005C48AB /* Images.xcassets */; };
 		334AE1DB19FF3573005C48AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334AE1D919FF3573005C48AB /* LaunchScreen.xib */; };
 		334AE1E719FF3573005C48AB /* SNBWebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1E619FF3573005C48AB /* SNBWebviewTests.m */; };
-		334AE1F519FF76D1005C48AB /* SNBMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */; };
+		334AE1F519FF76D1005C48AB /* SNBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1F419FF76D1005C48AB /* SNBMainViewController.m */; };
 		334AE21C19FF9DBB005C48AB /* KDCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1F919FF9DBB005C48AB /* KDCycleBannerView.m */; };
 		334AE21D19FF9DBB005C48AB /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1FC19FF9DBB005C48AB /* MKAnnotationView+WebCache.m */; };
 		334AE21E19FF9DBB005C48AB /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 334AE1FE19FF9DBB005C48AB /* NSData+ImageContentType.m */; };
@@ -57,6 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330E44851A07C9ED00D0591C /* SNBMainNavHotItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBMainNavHotItemModel.h; sourceTree = "<group>"; };
+		330E44861A07C9ED00D0591C /* SNBMainNavHotItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBMainNavHotItemModel.m; sourceTree = "<group>"; };
+		330E448B1A07D34100D0591C /* SNBMainNavUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBMainNavUIModel.h; sourceTree = "<group>"; };
+		330E448C1A07D34100D0591C /* SNBMainNavUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBMainNavUIModel.m; sourceTree = "<group>"; };
+		330E44931A07E64D00D0591C /* TOActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityChrome.h; sourceTree = "<group>"; };
+		330E44941A07E64D00D0591C /* TOActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityChrome.m; sourceTree = "<group>"; };
+		330E44951A07E64D00D0591C /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		330E44961A07E64D00D0591C /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		330E44971A07E64D00D0591C /* TOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOWebViewController.h; sourceTree = "<group>"; };
+		330E44981A07E64D00D0591C /* TOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOWebViewController.m; sourceTree = "<group>"; };
+		330E44991A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		330E449A1A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		330E44A21A07E71E00D0591C /* SNBAsynUrlImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBAsynUrlImageView.h; sourceTree = "<group>"; };
+		330E44A31A07E71E00D0591C /* SNBAsynUrlImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBAsynUrlImageView.m; sourceTree = "<group>"; };
 		334AE1C719FF3573005C48AB /* SNBWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNBWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334AE1CB19FF3573005C48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		334AE1CC19FF3573005C48AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,8 +88,8 @@
 		334AE1E019FF3573005C48AB /* SNBWebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNBWebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		334AE1E519FF3573005C48AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		334AE1E619FF3573005C48AB /* SNBWebviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNBWebviewTests.m; sourceTree = "<group>"; };
-		334AE1F319FF76D1005C48AB /* SNBMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBMainNavViewController.h; sourceTree = "<group>"; };
-		334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBMainNavViewController.m; sourceTree = "<group>"; };
+		334AE1F319FF76D1005C48AB /* SNBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBMainViewController.h; sourceTree = "<group>"; };
+		334AE1F419FF76D1005C48AB /* SNBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBMainViewController.m; sourceTree = "<group>"; };
 		334AE1F819FF9DBB005C48AB /* KDCycleBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDCycleBannerView.h; sourceTree = "<group>"; };
 		334AE1F919FF9DBB005C48AB /* KDCycleBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCycleBannerView.m; sourceTree = "<group>"; };
 		334AE1FB19FF9DBB005C48AB /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -152,6 +173,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330E448E1A07DC5B00D0591C /* Card1 */ = {
+			isa = PBXGroup;
+			children = (
+				334AE25F19FF9ED2005C48AB /* SNBMainNavType1Card.h */,
+				334AE26019FF9ED2005C48AB /* SNBMainNavType1Card.m */,
+				334AE26119FF9ED2005C48AB /* SNBMainNavType1Cell.h */,
+				334AE26219FF9ED2005C48AB /* SNBMainNavType1Cell.m */,
+				334AE26319FF9ED2005C48AB /* SNBMainNavType1Model.h */,
+				334AE26419FF9ED2005C48AB /* SNBMainNavType1Model.m */,
+			);
+			name = Card1;
+			sourceTree = "<group>";
+		};
+		330E448F1A07DC7200D0591C /* Card2 */ = {
+			isa = PBXGroup;
+			children = (
+				334AE26519FF9ED2005C48AB /* SNBMainNavType2Card.h */,
+				334AE26619FF9ED2005C48AB /* SNBMainNavType2Card.m */,
+				334AE26719FF9ED2005C48AB /* SNBMainNavType2Cell.h */,
+				334AE26819FF9ED2005C48AB /* SNBMainNavType2Cell.m */,
+				334AE26919FF9ED2005C48AB /* SNBMainNavType2Model.h */,
+				334AE26A19FF9ED2005C48AB /* SNBMainNavType2Model.m */,
+			);
+			name = Card2;
+			sourceTree = "<group>";
+		};
+		330E44901A07DC9A00D0591C /* Card3 */ = {
+			isa = PBXGroup;
+			children = (
+				334AE26B19FF9ED2005C48AB /* SNBMainNavType3Card.h */,
+				334AE26C19FF9ED2005C48AB /* SNBMainNavType3Card.m */,
+				334AE26D19FF9ED2005C48AB /* SNBMainNavType3Cell.h */,
+				334AE26E19FF9ED2005C48AB /* SNBMainNavType3Cell.m */,
+				334AE26F19FF9ED2005C48AB /* SNBMainNavType3Model.h */,
+				334AE27019FF9ED2005C48AB /* SNBMainNavType3Model.m */,
+			);
+			name = Card3;
+			sourceTree = "<group>";
+		};
+		330E44911A07E37700D0591C /* HotItems */ = {
+			isa = PBXGroup;
+			children = (
+				334AE25D19FF9ED2005C48AB /* SNBMainNavHotItemButton.h */,
+				334AE25E19FF9ED2005C48AB /* SNBMainNavHotItemButton.m */,
+				330E44851A07C9ED00D0591C /* SNBMainNavHotItemModel.h */,
+				330E44861A07C9ED00D0591C /* SNBMainNavHotItemModel.m */,
+			);
+			name = HotItems;
+			sourceTree = "<group>";
+		};
+		330E44921A07E64D00D0591C /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				330E44931A07E64D00D0591C /* TOActivityChrome.h */,
+				330E44941A07E64D00D0591C /* TOActivityChrome.m */,
+				330E44951A07E64D00D0591C /* TOActivitySafari.h */,
+				330E44961A07E64D00D0591C /* TOActivitySafari.m */,
+				330E44971A07E64D00D0591C /* TOWebViewController.h */,
+				330E44981A07E64D00D0591C /* TOWebViewController.m */,
+				330E44991A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.h */,
+				330E449A1A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.m */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		330E449B1A07E64D00D0591C /* WKWebview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WKWebview;
+			sourceTree = "<group>";
+		};
+		330E44A01A07E6BA00D0591C /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				330E448B1A07D34100D0591C /* SNBMainNavUIModel.h */,
+				330E448C1A07D34100D0591C /* SNBMainNavUIModel.m */,
+				334AE25919FF9ED2005C48AB /* SNBMainNavCard.h */,
+				334AE25A19FF9ED2005C48AB /* SNBMainNavCard.m */,
+				334AE25B19FF9ED2005C48AB /* SNBMainNavCardHeaderCell.h */,
+				334AE25C19FF9ED2005C48AB /* SNBMainNavCardHeaderCell.m */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		330E44A11A07E71E00D0591C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				330E44A21A07E71E00D0591C /* SNBAsynUrlImageView.h */,
+				330E44A31A07E71E00D0591C /* SNBAsynUrlImageView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		334AE1BE19FF3573005C48AB = {
 			isa = PBXGroup;
 			children = (
@@ -225,8 +340,8 @@
 			isa = PBXGroup;
 			children = (
 				334AE25819FF9ED2005C48AB /* GroupUI */,
-				334AE1F319FF76D1005C48AB /* SNBMainNavViewController.h */,
-				334AE1F419FF76D1005C48AB /* SNBMainNavViewController.m */,
+				334AE1F319FF76D1005C48AB /* SNBMainViewController.h */,
+				334AE1F419FF76D1005C48AB /* SNBMainViewController.m */,
 			);
 			path = MainNav;
 			sourceTree = "<group>";
@@ -234,6 +349,8 @@
 		334AE1F219FF7678005C48AB /* Webview */ = {
 			isa = PBXGroup;
 			children = (
+				330E44921A07E64D00D0591C /* Webview */,
+				330E449B1A07E64D00D0591C /* WKWebview */,
 			);
 			path = Webview;
 			sourceTree = "<group>";
@@ -299,30 +416,11 @@
 		334AE25819FF9ED2005C48AB /* GroupUI */ = {
 			isa = PBXGroup;
 			children = (
-				334AE25919FF9ED2005C48AB /* SNBMainNavCard.h */,
-				334AE25A19FF9ED2005C48AB /* SNBMainNavCard.m */,
-				334AE25B19FF9ED2005C48AB /* SNBMainNavCardHeaderCell.h */,
-				334AE25C19FF9ED2005C48AB /* SNBMainNavCardHeaderCell.m */,
-				334AE25D19FF9ED2005C48AB /* SNBMainNavHotItemButton.h */,
-				334AE25E19FF9ED2005C48AB /* SNBMainNavHotItemButton.m */,
-				334AE25F19FF9ED2005C48AB /* SNBMainNavType1Card.h */,
-				334AE26019FF9ED2005C48AB /* SNBMainNavType1Card.m */,
-				334AE26119FF9ED2005C48AB /* SNBMainNavType1Cell.h */,
-				334AE26219FF9ED2005C48AB /* SNBMainNavType1Cell.m */,
-				334AE26319FF9ED2005C48AB /* SNBMainNavType1Model.h */,
-				334AE26419FF9ED2005C48AB /* SNBMainNavType1Model.m */,
-				334AE26519FF9ED2005C48AB /* SNBMainNavType2Card.h */,
-				334AE26619FF9ED2005C48AB /* SNBMainNavType2Card.m */,
-				334AE26719FF9ED2005C48AB /* SNBMainNavType2Cell.h */,
-				334AE26819FF9ED2005C48AB /* SNBMainNavType2Cell.m */,
-				334AE26919FF9ED2005C48AB /* SNBMainNavType2Model.h */,
-				334AE26A19FF9ED2005C48AB /* SNBMainNavType2Model.m */,
-				334AE26B19FF9ED2005C48AB /* SNBMainNavType3Card.h */,
-				334AE26C19FF9ED2005C48AB /* SNBMainNavType3Card.m */,
-				334AE26D19FF9ED2005C48AB /* SNBMainNavType3Cell.h */,
-				334AE26E19FF9ED2005C48AB /* SNBMainNavType3Cell.m */,
-				334AE26F19FF9ED2005C48AB /* SNBMainNavType3Model.h */,
-				334AE27019FF9ED2005C48AB /* SNBMainNavType3Model.m */,
+				330E44A01A07E6BA00D0591C /* Card */,
+				330E44911A07E37700D0591C /* HotItems */,
+				330E448E1A07DC5B00D0591C /* Card1 */,
+				330E448F1A07DC7200D0591C /* Card2 */,
+				330E44901A07DC9A00D0591C /* Card3 */,
 				334AE27119FF9ED2005C48AB /* SNBMainNavViewController.h */,
 				334AE27219FF9ED2005C48AB /* SNBMainNavViewController.m */,
 			);
@@ -339,6 +437,7 @@
 		334AE28119FF9F74005C48AB /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				330E44A11A07E71E00D0591C /* UI */,
 				334AE29219FFA1FB005C48AB /* Model */,
 			);
 			path = Base;
@@ -456,17 +555,23 @@
 				334AE27919FF9ED2005C48AB /* SNBMainNavType2Card.m in Sources */,
 				334AE22819FF9DBB005C48AB /* UIImage+MultiFormat.m in Sources */,
 				334AE27619FF9ED2005C48AB /* SNBMainNavType1Card.m in Sources */,
+				330E448D1A07D34100D0591C /* SNBMainNavUIModel.m in Sources */,
 				334AE27E19FF9ED2005C48AB /* SNBMainNavType3Model.m in Sources */,
+				330E449D1A07E64D00D0591C /* TOActivitySafari.m in Sources */,
 				334AE22319FF9DBB005C48AB /* SDWebImageDownloaderOperation.m in Sources */,
-				334AE1F519FF76D1005C48AB /* SNBMainNavViewController.m in Sources */,
+				334AE1F519FF76D1005C48AB /* SNBMainViewController.m in Sources */,
 				334AE27B19FF9ED2005C48AB /* SNBMainNavType2Model.m in Sources */,
+				330E44A41A07E71E00D0591C /* SNBAsynUrlImageView.m in Sources */,
 				334AE22019FF9DBB005C48AB /* SDWebImageCompat.m in Sources */,
 				334AE22719FF9DBB005C48AB /* UIImage+GIF.m in Sources */,
 				334AE27719FF9ED2005C48AB /* SNBMainNavType1Cell.m in Sources */,
 				334AE27819FF9ED2005C48AB /* SNBMainNavType1Model.m in Sources */,
 				334AE27519FF9ED2005C48AB /* SNBMainNavHotItemButton.m in Sources */,
 				334AE27319FF9ED2005C48AB /* SNBMainNavCard.m in Sources */,
+				330E449E1A07E64D00D0591C /* TOWebViewController.m in Sources */,
+				330E44871A07C9ED00D0591C /* SNBMainNavHotItemModel.m in Sources */,
 				334AE22519FF9DBB005C48AB /* SDWebImagePrefetcher.m in Sources */,
+				330E449F1A07E64D00D0591C /* UIImage+TOWebViewControllerIcons.m in Sources */,
 				334AE29519FFA213005C48AB /* SNBModel.m in Sources */,
 				334AE1D019FF3573005C48AB /* AppDelegate.m in Sources */,
 				334AE21C19FF9DBB005C48AB /* KDCycleBannerView.m in Sources */,
@@ -476,6 +581,7 @@
 				334AE22219FF9DBB005C48AB /* SDWebImageDownloader.m in Sources */,
 				334AE27D19FF9ED2005C48AB /* SNBMainNavType3Cell.m in Sources */,
 				334AE22C19FF9DBB005C48AB /* UIView+WebCacheOperation.m in Sources */,
+				330E449C1A07E64D00D0591C /* TOActivityChrome.m in Sources */,
 				334AE22619FF9DBB005C48AB /* UIButton+WebCache.m in Sources */,
 				334AE27C19FF9ED2005C48AB /* SNBMainNavType3Card.m in Sources */,
 				334AE21D19FF9DBB005C48AB /* MKAnnotationView+WebCache.m in Sources */,

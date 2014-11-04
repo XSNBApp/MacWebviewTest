@@ -1,5 +1,5 @@
 //
-//  SNBMainNavViewController.h
+//  SNBMainViewController.h
 //  SNBWebview
 //
 //  Created by xxing on 14/10/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SNBMainNavViewController : UIViewController
+@interface SNBMainViewController : UIViewController
 
 @end

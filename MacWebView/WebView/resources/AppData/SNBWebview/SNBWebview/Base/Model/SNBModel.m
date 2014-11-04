@@ -35,7 +35,7 @@
                         NSUInteger ivarSize = 0;
                         NSUInteger ivarAlignment = 0;
                         NSGetSizeAndAlignment(type, &ivarSize, &ivarAlignment);
-                        NSData *data = [NSData dataWithBytes:(const char *)self + ivar_getOffset(ivar)
+                        NSData *data = [NSData dataWithBytes:(__bridge const void *)self + ivar_getOffset(ivar)
                                                       length:ivarSize];
                         [encoder encodeObject:data forKey:key];
                     }
@@ -84,9 +84,9 @@
                             NSUInteger ivarAlignment = 0;
                             NSGetSizeAndAlignment(type, &ivarSize, &ivarAlignment);				
                             NSData *data = [decoder decodeObjectForKey:key];
-                            char *sourceIvarLocation = (char*)self+ ivar_getOffset(ivar);								 
+                            char *sourceIvarLocation = (__bridge void*)self+ ivar_getOffset(ivar);
                             [data getBytes:sourceIvarLocation length:ivarSize];
-                            memcpy((char *)self + ivar_getOffset(ivar), sourceIvarLocation, ivarSize);
+                            memcpy((__bridge void *)self + ivar_getOffset(ivar), sourceIvarLocation, ivarSize);
                         }
                             break;
                         default:

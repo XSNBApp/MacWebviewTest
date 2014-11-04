@@ -1,18 +1,18 @@
 //
-//  SNBMainNavViewController.m
+//  SNBMainViewController.m
 //  SNBWebview
 //
 //  Created by xxing on 14/10/28.
 //  Copyright (c) 2014年 xxing. All rights reserved.
 //
 
-#import "SNBMainNavViewController.h"
+#import "SNBMainViewController.h"
 
-@interface SNBMainNavViewController ()
+@interface SNBMainViewController ()
 
 @end
 
-@implementation SNBMainNavViewController
+@implementation SNBMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

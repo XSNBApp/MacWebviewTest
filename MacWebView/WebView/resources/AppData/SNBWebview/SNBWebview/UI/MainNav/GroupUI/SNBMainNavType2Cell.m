@@ -2,14 +2,14 @@
 //  SNBMainNavGroupCell.m
 //  QQMSFContact
 //
-//  Created by brightshen on 14-9-25.
+//  Created by xxing on 14-9-25.
 //
 //
 
 #import "SNBMainNavType2Cell.h"
-#import "QQAsynUrlImageView.h"
-#import "UniLogUploadEngine.h"
-#import "QLineView.h"
+#import "SNBAsynUrlImageView.h"
+
+
 
 @interface SNBMainNavType2Button : UIButton
 
@@ -18,7 +18,7 @@
 @end
 
 @implementation SNBMainNavType2Button{
-    QQAsynUrlImageView *_iconView;
+    SNBAsynUrlImageView *_iconView;
     UILabel *_nameLabel;
     UILabel *_detailLabel;
 }
@@ -26,17 +26,17 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        _iconView = [[QQAsynUrlImageView alloc] initWithFrame:CGRectMake(15, 10, 76/2, 114/2) defaultImage:nil];
+        _iconView = [[SNBAsynUrlImageView alloc] initWithFrame:CGRectMake(15, 10, 76/2, 114/2)];
         [self addSubview:_iconView];
         _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(63, 8, self.bounds.size.width-73, 34)];
-        _nameLabel.skinTextColorNormal = kContentTitleTextColor;
+
         _nameLabel.font = [UIFont systemFontOfSize:13];
         _nameLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _nameLabel.numberOfLines = 2;
         _nameLabel.backgroundColor = [UIColor clearColor];
         [self addSubview:_nameLabel];
         _detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(63, 134/2-15, self.bounds.size.width-73, 14)];
-        _detailLabel.skinTextColorNormal = kContentDescriptionTextColor;
+ 
         _detailLabel.font = [UIFont systemFontOfSize:12];
         _detailLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _detailLabel.backgroundColor = [UIColor clearColor];
@@ -48,7 +48,7 @@
 - (void)setModel:(SNBMainNavType2Model *)model{
     if (model != _model) {
         _model = model;
-        [_iconView loadUrlImage:_model.imageURL];
+        [_iconView sd_setImageWithURL: [NSURL URLWithString:_model.imageURL]];
         _nameLabel.text = _model.name;
         _detailLabel.text = model.desc;
     }
@@ -76,20 +76,20 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         
-        _button1 = [[SNBMainNavType2Button alloc] initWithFrame:CGRectMake(0, 0, self.contentView.width/2, self.contentView.height)];
+        _button1 = [[SNBMainNavType2Button alloc] initWithFrame:CGRectMake(0, 0, self.contentView.bounds.size.width/2, self.contentView.bounds.size.height)];
         _button1.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleRightMargin;
         [_button1 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.contentView addSubview:_button1];
         
-        _button2 = [[SNBMainNavType2Button alloc] initWithFrame:CGRectMake(self.contentView.width/2, 0, self.contentView.width/2, self.contentView.height)];
+        _button2 = [[SNBMainNavType2Button alloc] initWithFrame:CGRectMake(self.contentView.bounds.size.width/2, 0, self.contentView.bounds.size.width/2, self.contentView.bounds.size.height)];
         _button2.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleLeftMargin;
         [_button2 addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.contentView addSubview:_button2];
         
-        QLineView *lineView = [[QLineView alloc] initWithFrame:CGRectMake(self.contentView.width/2, 0, 1, self.contentView.height)];
-        lineView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin;
-        lineView.lineColor = [UIColor colorWithWhite:0xdd/255.0 alpha:1];
-        [self.contentView addSubview:lineView];
+//        QLineView *lineView = [[QLineView alloc] initWithFrame:CGRectMake(self.contentView.width/2, 0, 1, self.contentView.height)];
+//        lineView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin;
+//        lineView.lineColor = [UIColor colorWithWhite:0xdd/255.0 alpha:1];
+//        [self.contentView addSubview:lineView];
         
         self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
@@ -136,7 +136,7 @@
 
     }
     
-    [[UniLogUploadEngine GetInstance] DataReportOpKey644:Group_Dept_Grp_find opType:Group_Dept_Grp_Find_OPType_grptab opName:Group_Dept_Grp_Find_OPName_Clk_localac opEnter:0 opResult:0 reserve:nil];
+
 }
 
 @end

@@ -19,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    id mainVC = [[SNBMainNavViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    id mainVC = [[UINavigationController alloc] initWithRootViewController:[[SNBMainNavViewController alloc] init]];
     self.window.rootViewController = mainVC;
     [self.window makeKeyAndVisible];
     

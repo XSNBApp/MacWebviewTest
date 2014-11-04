@@ -2,7 +2,7 @@
 //  SNBMainNavType1Model.m
 //  QQMSFContact
 //
-//  Created by brightshen on 14-9-28.
+//  Created by xxing on 14-9-28.
 //
 //
 
